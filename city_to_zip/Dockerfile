@@ -8,4 +8,6 @@ EXPOSE 5000
 
 RUN pip install flask
 
+RUN pip install requests
+
 CMD ["python", "app.py"]

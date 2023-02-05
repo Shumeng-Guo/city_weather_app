@@ -7,10 +7,10 @@ def index():
     <p>This website matches zipcode with cooresponding area weather</p>'
 
 
-@app.route('/zipcode') # type: ignore
+@app.route('/zipcode')
 def city_name():
-    zip_code = request.args.get('zipcode')
-    return f'The weather for {zip_code} is : {zipcode_weather[zip_code]}' # type: ignore
+    zip_code = request.args.get('zipcode') or ''
+    return f'The weather for {zip_code} is : {zipcode_weather[zip_code]}'
 
 
 zipcode_weather = {'95131': 'Rainy', '95050': 'Sunny', '94539': 'Sunny', '94041': 'Rainy'}
