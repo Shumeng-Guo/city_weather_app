@@ -80,3 +80,5 @@ The result gives us the weather of the city 'San Jose' directly: \
 <img width="449" alt="Screen Shot 2023-02-09 at 1 30 38 PM" src="https://user-images.githubusercontent.com/120552280/217943593-7e41a873-6509-434c-af2b-59fd92619021.png">
 
 Meaning we have connected the two standalone services using Docker Network successfully!
+
+---
